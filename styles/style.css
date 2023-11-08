@@ -1,0 +1,107 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-image: url("/images/tasks2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(9, 0, 17);
+  width: 100%;
+  color: white;
+  font-family: "Quicksand", sans-serif;}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 1em;
+}
+
+header p {
+  font-size: 20px;
+  padding: 1em;
+}
+
+header button {
+  font-size: 20px;
+  padding: 1em;
+  margin-bottom: 1em;
+  color: rgb(29, 29, 29);
+  background-color: rgb(212, 212, 212);
+  border: 1px solid black;
+  text-decoration: underline;
+}
+
+header button:hover {
+  color: rgb(136, 29, 139)
+}
+
+main {
+  margin: 5% 25% 25% 25%;
+  max-width: 80%;
+  background-color: rgb(9, 0, 17);
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.input-box {
+  margin: 1em auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#addTask {
+  width: 30em;
+  padding: 1em 0 1em 1em;
+  font-size: 18px;
+}
+
+#addButton {
+  width: 5em;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+}
+
+#addButton:hover {
+  color: rgb(18, 0, 19);
+  background-color: rgb(245, 241, 245)
+
+}
+
+.taskContainer {
+  width: 70%;
+  margin: 1em auto;
+  font-size: 18px;
+  padding: 1em 0;
+  text-align: left;
+  background-color: white;
+  border-radius: 1%;
+  word-wrap: break-word;
+}
+
+.check {
+  height: 20px;
+  width: 20px;
+  accent-color: rgb(118, 44, 136);
+  margin: 0 0.5em 0 1.5em;
+}
+
+ion-icon {
+  background-color: rgb(219, 121, 243);
+  border-radius: 54%;
+  font-size: 20px;
+  padding: 0.1em;
+  margin-right: 1em;
+  float: right;
+}
+
+.completed {
+  text-decoration: line-through;
+}
